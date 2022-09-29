@@ -1,0 +1,46 @@
+body {
+    background: url(https://i0.wp.com/www.domonthego.com/wp-content/uploads/2016/10/deathvalley-nationalpark-domonthego-153-1.jpg?fit=1200%2C800&ssl=1) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.header-wrapper {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+    .links {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .link-blog-posts {
+        height: 20vh;
+        width: 15vw;
+    }
+}
+.car-blog-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .car-blog {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 40vw;
+    
+        .car-img {
+            width: 40vw;
+            padding: 4vh 0vh;
+        }
+    
+        .car-make {
+            padding-bottom: 4vh;
+        }
+    }
+}

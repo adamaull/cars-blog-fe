@@ -1,0 +1,19 @@
+.text-box-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4vh;
+    padding-left: 3.5vw;
+
+    .imgUrl, .make, .model, .price, .blogPost {
+        padding-bottom: 4vh;
+    }
+
+    #imgUrl, #make, #model, #price, #blogPost {
+        width: 40vw;
+    }
+
+    #blogPost {
+        height: 25vh;
+    }
+}
